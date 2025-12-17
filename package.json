@@ -1,0 +1,24 @@
+{
+  "name": "lumen-scout-built-for-base",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@base-org/account": "latest",
+    "@coinbase/wallet-sdk": "latest",
+    "@coinbase/onchainkit": "latest",
+    "@coinbase/cdp-sdk": "latest",
+    "@coinbase/x402": "latest",
+    "viem": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}
